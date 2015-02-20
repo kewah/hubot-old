@@ -1,0 +1,27 @@
+{
+  "name": "hubot-old",
+  "description": "A hubot script that warns you when a link has already been posted",
+  "version": "0.0.0",
+  "author": "Antoine Lehurt <code@kewah.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "repost",
+    "link"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kewah/hubot-old.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kewah/hubot-old/issues"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.1",
+    "hubot": "^2.11.1",
+    "moment": "^2.9.0",
+    "url-norm": "^1.0.0"
+  },
+  "main": "index.coffee"
+}
