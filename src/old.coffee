@@ -27,7 +27,7 @@ module.exports = (robot) ->
     cache = robot.brain.get("old")
     cachedData = cache[url]
 
-    if cachedData
+    if cachedData and cachedData.user isnt user.name
       msg.send """
         Oops <@#{user.name}>, this link has already been shared:
         :point_right: #{url} by <@#{cachedData.user}> on <##{cachedData.room}> #{moment(cachedData.time).fromNow()}
