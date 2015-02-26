@@ -29,8 +29,8 @@ module.exports = (robot) ->
 
     if cachedData and cachedData.user isnt user.name
       msg.send """
-        Oops <@#{user.name}>, this link has already been shared:
-        :point_right: #{url} by <@#{cachedData.user}> on <##{cachedData.room}> #{moment(cachedData.time).fromNow()}
+        Oops @#{user.name}, this link has already been shared:
+        :point_right: #{url} by @#{cachedData.user} on <##{cachedData.room}> #{moment(cachedData.time).fromNow()}
       """
     else
       cache[url] =
