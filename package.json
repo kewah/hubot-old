@@ -1,7 +1,7 @@
 {
   "name": "hubot-old",
   "description": "A hubot script that warns you when a link has already been posted",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Antoine Lehurt <code@kewah.com>",
   "license": "MIT",
   "keywords": [
